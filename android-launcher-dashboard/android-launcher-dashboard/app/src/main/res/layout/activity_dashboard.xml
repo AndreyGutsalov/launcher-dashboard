@@ -1,0 +1,12 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:id="@+id/timeText" android:textSize="32sp" />
+    <TextView android:id="@+id/dateText" android:textSize="18sp" />
+    <TextView android:id="@+id/weatherText" android:textSize="20sp" />
+    <TextView android:id="@+id/compassText" android:textSize="20sp" />
+    <TextView android:id="@+id/gpsText" android:textSize="20sp" />
+    <Button android:id="@+id/launchButton" android:text="Launch Play Store" />
+</LinearLayout>
